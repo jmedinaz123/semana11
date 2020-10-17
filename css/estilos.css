@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    background-color: green;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+li{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+li:hover{
+    background-color: darkred;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: whitesmoke;
+
+}
